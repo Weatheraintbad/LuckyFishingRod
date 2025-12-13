@@ -4,9 +4,11 @@
   "package": "luckyfishingrod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "PlayerMainHandFlipMixin",
     "FishingBobberAccessor",
     "LuckyBobberValidityMixin"
+  ],
+  "client": [
+    "client.FishingBobberRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

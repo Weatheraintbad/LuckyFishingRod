@@ -2,19 +2,21 @@ package luckyfishingrod;
 
 import luckyfishingrod.client.*;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 public class LuckyFishingRodClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        // 先注册网络接收器
+        // 1. 网络与模型
         CastStateReceiver.register();
         AutoClearCast.register();
 
-        // 注册物品属性来切换模型
         ModelPredicateProviderRegistry.register(
                 LuckyFishingRod.LUCKY_FISHING_ROD,
                 new Identifier("casting"),
@@ -25,6 +27,10 @@ public class LuckyFishingRodClient implements ClientModInitializer {
                     return 0.0F;
                 }
         );
+
+        // 2. 把幸运钓竿插到“工具”栏，紧挨原版钓鱼竿
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries ->
+                entries.addAfter(Items.FISHING_ROD, LuckyFishingRod.LUCKY_FISHING_ROD));
 
         LuckyFishingRod.LOGGER.info("Lucky Fishing Rod client initialized!");
     }

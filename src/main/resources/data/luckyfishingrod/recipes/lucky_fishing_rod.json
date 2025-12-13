@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "lucky_fishing_rod",
+  "pattern": [
+    "GRG",
+    "GFG",
+    "GGG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:glowstone_dust" },
+    "R": { "item": "minecraft:redstone" },
+    "F": { "item": "minecraft:fishing_rod" }
+  },
+  "result": {
+    "item": "luckyfishingrod:lucky_fishing_rod",
+    "count": 1
+  }
+}

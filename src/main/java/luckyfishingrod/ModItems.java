@@ -11,7 +11,6 @@ public class ModItems {
     public static Item LUCKY_FISHING_ROD;
 
     public static void register() {
-        // 1.19.3 必须用 FabricItemSettings 才能调 maxDamage
         LUCKY_FISHING_ROD = new LuckyFishingRodItem(
                 new FabricItemSettings()
                         .maxDamage(256)          // 耐久值

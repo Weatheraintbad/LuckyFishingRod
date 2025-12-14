@@ -11,13 +11,11 @@ base {
 }
 
 repositories {
-    // 添加必要的仓库
     mavenCentral()
     maven {
         name = "Fabric"
         url = "https://maven.fabricmc.net/"
     }
-    // 如果需要其他mod依赖，可以在这里添加
 }
 
 dependencies {
@@ -44,7 +42,6 @@ processResources {
 tasks.withType(JavaCompile).configureEach {
     it.options.release = 17
     it.options.encoding = "UTF-8"
-    // 如果需要查看过时API警告
     it.options.compilerArgs << "-Xlint:deprecation"
 }
 
@@ -60,7 +57,6 @@ jar {
     }
 }
 
-// 配置 maven 发布
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -68,6 +64,5 @@ publishing {
         }
     }
     repositories {
-        // 添加你的发布仓库
     }
 }

@@ -17,7 +17,6 @@ import java.util.Random;
 public class LuckyFishingBobberEntity extends FishingBobberEntity {
     private static final Random RANDOM = new Random();
 
-    // 保留一个构造函数供Fabric使用
     public LuckyFishingBobberEntity(EntityType<? extends FishingBobberEntity> type, World world) {
         super(type, world);
     }

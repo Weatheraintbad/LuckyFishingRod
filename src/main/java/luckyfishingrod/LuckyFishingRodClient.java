@@ -17,7 +17,7 @@ public class LuckyFishingRodClient implements ClientModInitializer {
         CastStateReceiver.register();
         AutoClearCast.register();
 
-        // 模型属性（1.19.3 开始只有 3 个参数，seed 被移除）
+        // 模型属性（1.19.3 只有 3 个参数，seed 被移除）
         ModelPredicateProviderRegistry.register(
                 LuckyFishingRod.LUCKY_FISHING_ROD,
                 new Identifier("casting"),

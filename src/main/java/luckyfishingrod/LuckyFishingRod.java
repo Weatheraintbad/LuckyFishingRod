@@ -17,7 +17,7 @@ public class LuckyFishingRod implements ModInitializer {
     // 直接在这里初始化，省得后面再赋值
     public static final Item LUCKY_FISHING_ROD = new LuckyFishingRodItem(
             new FabricItemSettings()
-                    .maxDamage(64)          // 1.19.3 只能用 FabricItemSettings
+                    .maxDamage(64)          // 1.19.3 用 FabricItemSettings
     );
 
     @Override
@@ -34,7 +34,6 @@ public class LuckyFishingRod implements ModInitializer {
         LOGGER.info("Lucky Fishing Rod mod initialized!");
     }
 
-    // 快捷生成 Identifier
     public static Identifier id(String path) {
         return new Identifier(MOD_ID, path);
     }

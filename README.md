@@ -1,5 +1,5 @@
-### 为我的世界添加了新的工具：幸运钓竿！能钓出任何意想不到东西！
-Adding a new tool for Minecraft: Lucky Fishing Rod! Can catch anything!
+### 为我的世界添加了新的工具：幸运钓竿！
+Adding a new tool for Minecraft: Lucky Fishing Rod! 
 
 <img width="300" height="300" alt="微信图片_20251214010740_256_58" src="https://github.com/user-attachments/assets/edbfb02b-1408-4dbf-9381-c02ac9e22900" />
 

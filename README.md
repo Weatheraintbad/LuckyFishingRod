@@ -16,5 +16,5 @@ Support any mod, as long as the item is successfully loaded by the server/client
 ### 在原版我的世界1.20.1中使用幸运钓竿钓上鱼（生鳕鱼、生蛙鱼、热带鱼、河豚）的概率约为0.96%。
 The probability of catching fish (raw cod, raw frogfish, tropical fish, pufferfish) with Lucky Fishing Rod in original Minecraft 1.20.1 is about 0.96%.
 
-### 目前支持我的世界Java1.20.1~1.20.4版本，需要Fabric Loader 1.16.14及以上版本，以及任意版本的Fabric API。
-Currently supports Minecraft Java version 1.20.1~1.20.4, requires Fabric Loader version 1.16.14 or higher, and version of the Fabric API.
+### 目前支持我的世界Java 1.19.3 及 1.20.1~1.20.4 版本，需要Fabric Loader 1.16.14及以上版本，以及任意版本的Fabric API。
+Currently supports Minecraft Java 1.19.3 & 1.20.1~1.20.4, requires Fabric Loader version 1.16.14 or higher, and version of the Fabric API.

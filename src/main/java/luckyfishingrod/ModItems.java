@@ -1,5 +1,6 @@
 package luckyfishingrod;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings; // ← 新增
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -10,14 +11,13 @@ public class ModItems {
     public static Item LUCKY_FISHING_ROD;
 
     public static void register() {
-        // 创建幸运钓鱼竿物品
+        // 1.19.3 必须用 FabricItemSettings 才能调 maxDamage
         LUCKY_FISHING_ROD = new LuckyFishingRodItem(
-                new Item.Settings()
-                        .maxDamage(256)
-                        .rarity(Rarity.UNCOMMON)
+                new FabricItemSettings()
+                        .maxDamage(256)          // 耐久值
+                        .rarity(Rarity.UNCOMMON) // 稀有度
         );
 
-        // 注册物品
         Registry.register(Registries.ITEM,
                 LuckyFishingRod.id("lucky_fishing_rod"),
                 LUCKY_FISHING_ROD);

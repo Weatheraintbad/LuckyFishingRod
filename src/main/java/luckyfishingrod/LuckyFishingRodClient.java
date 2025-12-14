@@ -13,14 +13,15 @@ public class LuckyFishingRodClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        // 1. 网络与模型
+        // 网络包
         CastStateReceiver.register();
         AutoClearCast.register();
 
+        // 模型属性（1.19.3 开始只有 3 个参数，seed 被移除）
         ModelPredicateProviderRegistry.register(
                 LuckyFishingRod.LUCKY_FISHING_ROD,
                 new Identifier("casting"),
-                (itemStack, clientWorld, livingEntity, seed) -> {
+                (itemStack, clientWorld, livingEntity, seed) -> {   // 补上第四个参数
                     if (livingEntity instanceof PlayerEntity player && PlayerCastState.isCasting(player)) {
                         return 1.0F;
                     }
@@ -28,9 +29,10 @@ public class LuckyFishingRodClient implements ClientModInitializer {
                 }
         );
 
-        // 2. 把幸运钓竿插到“工具”栏，在原版钓鱼竿后面
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries ->
-                entries.addAfter(Items.FISHING_ROD, LuckyFishingRod.LUCKY_FISHING_ROD));
+        // 物品组插入（1.19.3 签名）
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
+                .register(entries -> entries.addAfter(Items.FISHING_ROD,
+                        LuckyFishingRod.LUCKY_FISHING_ROD));
 
         LuckyFishingRod.LOGGER.info("Lucky Fishing Rod client initialized!");
     }

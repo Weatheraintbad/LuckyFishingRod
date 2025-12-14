@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(FishingBobberEntityRenderer.class)
 public class FishingBobberRendererMixin {
 
-    /* 仅拦截第一次 getMainArm() 调用（主手），第二次固定是 LEFT，不变 */
+    // 拦截第一次 getMainArm() 调用（主手），第二次固定是LEFT（真没招了）
     @Redirect(
             method = "render(Lnet/minecraft/entity/projectile/FishingBobberEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V",
             at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/PlayerEntity;getMainArm()Lnet/minecraft/util/Arm;"),

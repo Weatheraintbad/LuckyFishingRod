@@ -23,7 +23,7 @@ public class LuckyFishingRodItem extends net.minecraft.item.FishingRodItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack stack = user.getStackInHand(hand);
 
-        if (user.fishHook != null) {            // 已有浮标 – 收回
+        if (user.fishHook != null) {            // 已有浮标则收回
             if (!world.isClient) {
                 int dmg = user.fishHook.use(stack);
                 stack.damage(dmg, user, p -> p.sendToolBreakStatus(hand));

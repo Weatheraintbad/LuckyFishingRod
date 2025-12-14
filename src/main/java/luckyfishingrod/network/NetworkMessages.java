@@ -13,8 +13,6 @@ public class NetworkMessages {
     private static final Logger LOGGER = LoggerFactory.getLogger("luckyfishingrod");
 
     public static void register() {
-        // 服务器端注册接收器（如果需要接收客户端消息）
-        // 如果没有需要服务器接收的消息，这个方法可以留空或添加日志
         LOGGER.info("Network messages registered");
     }
 

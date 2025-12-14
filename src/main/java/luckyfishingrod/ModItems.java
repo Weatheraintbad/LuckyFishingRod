@@ -7,7 +7,6 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
 
-    // 在这里声明物品变量为public static
     public static Item LUCKY_FISHING_ROD;
 
     public static void register() {

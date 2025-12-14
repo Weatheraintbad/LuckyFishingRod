@@ -11,7 +11,6 @@ public class DynamicModelVariantProvider implements ModelResolver {
     @Override
     @Nullable
     public UnbakedModel resolveModel(Context context) {
-        // 现在不需要在这里处理模型切换，因为物品属性已经处理了
         return null;
     }
 }

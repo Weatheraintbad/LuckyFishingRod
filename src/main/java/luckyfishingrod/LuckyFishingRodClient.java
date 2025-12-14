@@ -28,7 +28,7 @@ public class LuckyFishingRodClient implements ClientModInitializer {
                 }
         );
 
-        // 2. 把幸运钓竿插到“工具”栏，紧挨原版钓鱼竿
+        // 2. 把幸运钓竿插到“工具”栏，在原版钓鱼竿后面
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries ->
                 entries.addAfter(Items.FISHING_ROD, LuckyFishingRod.LUCKY_FISHING_ROD));
 

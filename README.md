@@ -20,10 +20,13 @@ The probability of catching fish (raw cod, raw frogfish, tropical fish, pufferfi
 
 ### 目前已适配的版本：
 
-Fabric 1.19.3 / 1.19.4 / 1.20.1 / 1.20.2 / 1.20.3 / 1.20.4（需要 Fabric Loader 0.16.14 以及上版本，Fabric API任意版本）。
+**Fabric 1.19.3 / 1.19.4 / 1.20.1 / 1.20.2 / 1.20.3 / 1.20.4**（需要 Fabric Loader 0.16.14 以及上版本，Fabric API任意版本）。
 
 (requires Fabric Loader 0.16.14 or higher, any version of Fabric API).
 
-Forge 1.20.1（需要 Forge Loader 47 及以上版本）。
+**Forge 1.20.1**（需要 Forge Loader 47 及以上版本）。
 
 (requires Forge Loader 47 or higher).
+
+### Forge / Fabric 1.21.1 版本适配（重写）中。
+![74aa94090e94f74be2cc4272d415f828](https://github.com/user-attachments/assets/62f6f4d5-1ba7-40ff-8ee1-d3dbc21405dd)

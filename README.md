@@ -2,8 +2,8 @@
 
 <div align="center"> 
   
-  ### 为我的世界添加了新的工具：幸运钓竿！
-  ### Adding a new tool for Minecraft: Lucky Fishing Rod! 
+  ### 为我的世界添加了新的"钓鱼"工具：幸运钓竿！
+  ### Adds a new "fishing" tool for Minecraft: Lucky Fishing Rod! 
 </div>
 
 

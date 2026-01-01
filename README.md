@@ -1,6 +1,10 @@
 <img width="1550" height="346" alt="screenshot (2)" src="https://github.com/user-attachments/assets/861cdb3d-4e71-4a24-8f90-9b653aece45a" />
 
 <div align="center"> 
+<br>
+
+  [<img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">](https://github.com/Weatheraintbad/LuckyFishingRod)&nbsp;&nbsp;&nbsp;
+  [<img alt="forge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg" >](https://github.com/Weatheraintbad/LuckyFishingRodForge)
   
   ### 为我的世界添加了新的"钓鱼"工具：幸运钓竿！
   ### Adds a new "fishing" tool for Minecraft: Lucky Fishing Rod! 

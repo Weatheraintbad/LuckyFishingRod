@@ -37,3 +37,8 @@ The probability of catching fish (raw cod, raw frogfish, tropical fish, pufferfi
 ### Forge版本源码 Source code of Forge version：
 
 - [Forge 1.20.1](https://github.com/Weatheraintbad/LuckyFishingRodForge)
+
+[modrinth]: https://img.shields.io/badge/Modrinth-1bd96a?logo=modrinth&logoColor=ffffff
+[github]: https://img.shields.io/badge/GitHub-181717?logo=github
+
+### 下载 Download: [ ![modrinth] ](https://modrinth.com/mod/lucky-fishing-rod)[ ![github] ](https://github.com/Weatheraintbad/LuckyFishingRod/releases)

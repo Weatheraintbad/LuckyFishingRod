@@ -5,6 +5,10 @@
 
   [<img alt="fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">](https://github.com/Weatheraintbad/LuckyFishingRod)&nbsp;&nbsp;&nbsp;
   [<img alt="forge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg" >](https://github.com/Weatheraintbad/LuckyFishingRodForge)
+
+  [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/lucky-fishing-rod)&nbsp;&nbsp;&nbsp;
+  [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/Weatheraintbad/LuckyFishingRod/releases)
+
   
   ### 为我的世界添加了新的"钓鱼"工具：幸运钓竿！
   ### Adds a new "fishing" tool for Minecraft: Lucky Fishing Rod! 
@@ -38,7 +42,7 @@ The probability of catching fish (raw cod, raw frogfish, tropical fish, pufferfi
 
 - [Forge 1.20.1](https://github.com/Weatheraintbad/LuckyFishingRodForge)
 
-[modrinth]: https://img.shields.io/badge/Modrinth-1bd96a?logo=modrinth&logoColor=ffffff
-[github]: https://img.shields.io/badge/GitHub-181717?logo=github
+### 下载 Download:
 
-### 下载 Download: [ ![modrinth] ](https://modrinth.com/mod/lucky-fishing-rod)[ ![github] ](https://github.com/Weatheraintbad/LuckyFishingRod/releases)
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/lucky-fishing-rod)&nbsp;&nbsp;&nbsp;
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/Weatheraintbad/LuckyFishingRod/releases)

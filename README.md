@@ -7,6 +7,7 @@
   [<img alt="forge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/forge_vector.svg" >](https://github.com/Weatheraintbad/LuckyFishingRodForge)
 
   [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/lucky-fishing-rod)&nbsp;&nbsp;&nbsp;
+  [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/mc-mods/lucky-fishing-rod)&nbsp;&nbsp;&nbsp;
   [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/Weatheraintbad/LuckyFishingRod/releases)
 
   
@@ -45,4 +46,6 @@ The probability of catching fish (raw cod, raw frogfish, tropical fish, pufferfi
 ### 下载 Download:
 
 [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/mod/lucky-fishing-rod)&nbsp;&nbsp;&nbsp;
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg">](https://www.curseforge.com/minecraft/mc-mods/lucky-fishing-rod)&nbsp;&nbsp;&nbsp;
 [<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/Weatheraintbad/LuckyFishingRod/releases)
+
